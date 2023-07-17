@@ -1,0 +1,106 @@
+main {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: white;
+}
+
+footer{
+    background-color: #ebebeb;
+    padding-top: 40px;
+}
+
+.base{
+    width: 40vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    background-color: #ebebeb;
+    padding: 20px 0px 10px;
+}
+
+main .categorias label{
+    display: flex;
+    margin-left: 50px;
+}
+
+.check{
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.base label{
+    width: 20vw;
+    margin-right: 5vw;
+    padding: 0;
+}
+.base h1{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.base .pass{
+    margin-top: 15px;
+}
+
+.base button{
+    margin-top: -15px;
+}
+
+.contenedor{
+    height: 40px;
+    width: 40vw;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: solid 3px #ebebeb;
+}
+
+.contenedor input[type="file"]{
+    padding: 3px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+}
+
+.contenedor input[type="radio"]{
+    padding: 3px;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#enviar{
+    height: 30px;
+    width: 40vw;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    background-color: #1259c3;
+    color: white;
+    transition: 300ms;
+}
+
+#enviar:hover{
+    background-color: #0022AA;
+}
+
+#borrar{
+    height: 30px;
+    width: 40vw;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    background-color: #1259c3;
+    color: white;
+    transition: 300ms;
+}
+#borrar:hover{
+    background-color: #0022AA;
+}
