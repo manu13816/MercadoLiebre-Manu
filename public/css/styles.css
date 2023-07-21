@@ -184,6 +184,7 @@ footer i{
     font-size: 2em;
     margin-bottom: 5px;
     color: #1259c3;
+    transition: 500ms;
 }
 footer i:hover{
     color: #0022AA;

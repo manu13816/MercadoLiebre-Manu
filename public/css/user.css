@@ -85,7 +85,7 @@ main .categorias label{
     border-radius: 7px;
     background-color: #1259c3;
     color: white;
-    transition: 300ms;
+    transition: 500ms;
 }
 
 #enviar:hover{
@@ -99,7 +99,7 @@ main .categorias label{
     border-radius: 7px;
     background-color: #1259c3;
     color: white;
-    transition: 300ms;
+    transition: 500ms;
 }
 #borrar:hover{
     background-color: #0022AA;

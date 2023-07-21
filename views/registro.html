@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
     <link rel="stylesheet" href="./css/user.css">
+    <link rel="icon" href="./img/MLico.ico">
 </head>
 
 <body>
@@ -44,41 +45,45 @@
     </header>
 
     <main>
+    <form action="/" method="get">
         <div class="base">
-            <input type="text" id="nombre" placeholder="Nombre y apellido" class="contenedor" required>
-            <input type="text" id="usuario" placeholder="Nombre de usuario" class="contenedor" required>
-            <input type="email" id="email" placeholder="E-mail" class="contenedor" required>
+            <input type="text" id="nombre" placeholder="Nombre y apellido" class="contenedor" name="nombre" required>
+            <input type="text" id="usuario" placeholder="Nombre de usuario" class="contenedor" name="usuario" required>
+            <input type="email" id="email" placeholder="E-mail" class="contenedor" name="email" required>
             <h1>Fecha de nacimiento</h1>
-            <input type="date" id="fecha" class="contenedor" required>
-            <input type="text" id="domicilio" placeholder="domicilio" class="contenedor" required>
+            <input type="date" id="fecha" class="contenedor" name="fecha" required>
+            <input type="text" id="domicilio" placeholder="domicilio" class="contenedor" name="domicilio" required>
             <h1>Perfil del usuario</h1>
         <div class="check">
-            <input type="radio" id="perfil" name="perfil" value="Comprador" class="contenedor1">
+            <input type="radio" id="perfil" name="perfil" value="Comprador" class="contenedor1" name="perfil">
             <label for="Comprador">Comprador</label>
-            <input type="radio" id="perfil" name="perfil" value="Vendedor" class="contenedor1">
+            <input type="radio" id="perfil" name="perfil" value="Vendedor" class="contenedor1" name="perfil">
             <label for="Vendedor">Vendedor</label>
+            <input type="radio" id="perfil" name="perfil" value="Ambos" class="contenedor1" name="perfil">
+            <label for="Ambos">Ambos</label>
         </div>
         <div class="categorias">
             <h1>Categorías de interés</h1>
-            <label><input type="checkbox" id="cbox1" value="first_checkbox"> Electro</label>
-            <label><input type="checkbox" id="cbox1" value="first_checkbox"> Moda</label>
-            <label><input type="checkbox" id="cbox1" value="first_checkbox"> Hogar</label>
-            <label><input type="checkbox" id="cbox1" value="first_checkbox"> Juguetería</label>
-            <label><input type="checkbox" id="cbox1" value="first_checkbox"> Vida sana</label>
+            <label><input type="checkbox" id="cbox1" value="first_checkbox" name="cbox1"> Electro</label>
+            <label><input type="checkbox" id="cbox1" value="first_checkbox" name="cbox1"> Moda</label>
+            <label><input type="checkbox" id="cbox1" value="first_checkbox" name="cbox1"> Hogar</label>
+            <label><input type="checkbox" id="cbox1" value="first_checkbox" name="cbox1"> Juguetería</label>
+            <label><input type="checkbox" id="cbox1" value="first_checkbox" name="cbox1"> Vida sana</label>
         </div>
             <br>
             <h1>Foto de usuario</h1>
             <input type="file" id="inputarchivo" name="file" style="display: none;" required><br>
             <button><label for="inputarchivo">Selecciona un archivo</label></button>
         <div class="pass">
-            <input type="password" id="contraseña" placeholder="Contraseña" class="contenedor" required>
-            <input type="password" id="contraseña" placeholder="Confirmar contraseña" class="contenedor" required>
+            <input type="password" id="contraseña" placeholder="Contraseña" class="contenedor" name="contraseña" required>
+            <input type="password" id="contraseña" placeholder="Confirmar contraseña" class="contenedor" name="contraseña" required>
         </div>
         <p>
             <input type="submit" id="enviar" class="contenedor3">
-            <input type="reset" id="borrar" value="borrar" class="contenedor3">
+            <button type="reset" id="borrar" value="borrar" class="contenedor3">Borrar</button>
         </p>
         </div>
+    </form>
     </main>
 
 

@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
     <link rel="stylesheet" href="./css/user.css">
+    <link rel="icon" href="./img/MLico.ico">
 </head>
 
 <body>
@@ -44,11 +45,13 @@
     </header>
 
     <main>
+        <form action="/" method="get">
         <div class="base">
-            <input type="text" id="usuario" placeholder="Ingrese su nombre de usuario" class="contenedor" required>
-            <input type="password" id="contraseña" placeholder="Ingrese su contraseña" class="contenedor" required>
+            <input type="text" id="usuario" placeholder="Ingrese su nombre de usuario" class="contenedor" name="usuario" required>
+            <input type="password" id="contraseña" placeholder="Ingrese su contraseña" class="contenedor" name="contraseña" required>
             <input type="submit" id="enviar">
         </div>
+        </form>
         </main>
 
 
